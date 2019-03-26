@@ -1,0 +1,32 @@
+/*COOKIES DIALOG*/
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  margin-top: 60px;
+}
+.modal-dialog {
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  margin: 15px !important;
+}
+#btn-cookies {
+  display: none;
+}
+.btn-primary {
+    background-color: #5D5D56;
+    border-color: #5D5D56;
+}
+.btn-primary:hover {
+    background-color: #1a1a18;
+    border-color: #1a1a18;
+}
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #1a1a18;
+    border-color: #1a1a18;
+}
